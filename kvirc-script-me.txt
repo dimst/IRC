@@ -1,0 +1,4 @@
+В меню "Сценарии > Новый тестер сценариев" скопируйте код ниже 
+
+
+event(OnChannelNickDefaultActionRequest,default) { window.insertInInputText -a $window "$0: " ; window.activate $window; }
